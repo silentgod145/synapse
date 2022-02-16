@@ -1,0 +1,28 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
+--local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
+
+ local Window = Library:Create("aim.wow","Krnl")
+
+local Tab1 = Window:Tab("bs.wow",true)
+
+Tab1:Button("excute fly (x).wow",function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/raw/sUA9m6M6"))()
+end)
+
+local Tab2 = Window:Tab("clientside",true)
+Tab2:Button("Headless Client Sided",function(bool)
+    getgenv().game.Players.LocalPlayer.Character.Head.Transparency = 1
+    getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
+    getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
+end)
+
+
+local Tab3 = Window:Tab("aim.wow",true)
+Tab3:Button("Lock.wow"),function(bool)
+ loadstring(game:HttpGet("https://pastebin.com/raw/M3nt5Dad" ))() 
+end)
+Tab3:Label("Close.wow")
+
+Tab7:Keybind("Toggle",Enum.KeyCode.V,function()
+    Library:Toggle()
+end)
