@@ -10,7 +10,7 @@ Tab1:Button("excute fly (x).wow",function(bool)
 end)
 
 local Tab2 = Window:Tab("clientside.wow",true)
-Tab1:Label("clientside.wow") 
+Tab1:Labe2("clientside.wow") 
 Tab2:Button("Headless Client Sided",function(bool)
     getgenv().game.Players.LocalPlayer.Character.Head.Transparency = 1
     getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
@@ -19,7 +19,7 @@ end)
 
 
 local Tab3 = Window:Tab("aim.wow",true)
-Tab1:Label("aim.wow")
+Tab3:Label("aim.wow")
 Tab3:Button("Lock.wow",function(bool)
  loadstring(game:HttpGet("https://pastebin.com/raw/M3nt5Dad" ))() 
 end)
